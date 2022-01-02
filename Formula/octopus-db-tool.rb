@@ -3,7 +3,6 @@ class OctopusDbTool < Formula
     homepage "https://github.com/lechuckroh/octopus-db-tool"
     version "2.0.0"
     license "MIT"
-    bottle :unneeded
   
     on_macos do
       if Hardware::CPU.intel?
